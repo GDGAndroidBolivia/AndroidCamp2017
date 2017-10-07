@@ -110,7 +110,7 @@
     "home": {
       "title": "Inicio",
       "headerSettings": {
-        "backgroundColor": "#FF9800",
+        "backgroundColor": "#a5bc47",
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",

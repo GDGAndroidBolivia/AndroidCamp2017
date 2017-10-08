@@ -16,7 +16,7 @@
     <style include="shared-styles">
       :host {
         display: block;
-        background: #fff;
+        background: var(--default-primary-color);
       }
 
       .container {
@@ -99,11 +99,11 @@
               src="[[person.photoUrl]]"
               sizing="cover"
             ></iron-image>
-            <iron-image
+            <!--<iron-image
               class="company-logo"
               src="[[person.companyLogo]]"
               sizing="contain"
-            ></iron-image>
+            ></iron-image>-->
             <h4 class="name">[[person.name]]</h4>
             <span class="company">[[person.country]]</span>
           </a>

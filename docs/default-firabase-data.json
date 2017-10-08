@@ -1454,15 +1454,15 @@
   } ],
   "tickets" : {
     "elements" : [ {
-      "currency" : "₴",
+      "currency" : "Bs.",
       "ends" : "Sep 8",
       "info" : "Requires valid student ID",
       "name" : "Student",
-      "price" : 500,
+      "price" : 110,
       "soldOut" : false,
       "starts" : "May 1"
     }, {
-      "currency" : "₴",
+      "currency" : "Bs.",
       "ends" : "July 1",
       "info" : "Or first 100 tickets",
       "name" : "Early Bird",
@@ -1470,7 +1470,7 @@
       "soldOut" : true,
       "starts" : "May 1"
     }, {
-      "currency" : "₴",
+      "currency" : "Bs.",
       "ends" : "Sep 8",
       "name" : "Lazy Bird",
       "price" : 1000,

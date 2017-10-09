@@ -32,11 +32,11 @@
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfua",
+  "hashtag": "AndroidCampBo",
   "disqusShortName": "hoverboard-gdg-x",
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/watch?v=P3JksRZd3Z4&list=PLQyfVMYAtNf2-V9FyqgNBMYcGo1BMYnE7",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLQyfVMYAtNf2-V9FyqgNBMYcGo1BMYnE7",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -57,23 +57,28 @@
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "GDG Android Bolivia",
+      "url": "https://twitter.com/GDGAndroidBo"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "+AndroidboliviaOrg",
+      "url": "https://plus.google.com/+AndroidboliviaOrg"
     },
     {
       "name": "facebook",
       "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "url": "https://www.facebook.com/GDGAndroidBolivia"
     },
     {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "name": "github",
+      "nickname": "GDGAndroidBolivia",
+      "url": "https://github.com/GDGAndroidBolivia"
+    },
+    {
+      "name": "website",
+      "nickname": "GDGAndroidBolivia",
+      "url": "http://www.gdg.androidbolivia.com"
     }
   ],
   "location": {
@@ -82,13 +87,13 @@
     "address": "36 Shchyretska St, Lviv, Ukraine",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 15
+      "latitude": -17.989278,
+      "longitude": -67.138000,
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": -17.9893441,
+      "longitude": -67.1351515
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -97,12 +102,12 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://goo.gl/photos/pcC3D4EAwoMfpWxP9",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
+      "big": "/images/backgrounds/3.jpg",
       "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
+        "/images/backgrounds/1.jpg",
+        "/images/backgrounds/2.jpg"
       ]
     }
   },
@@ -115,9 +120,9 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
+          "title": "Android Camp 2016",
+          "youtubeId": "3p5u_T_Rm8I",
+          "text": "Como fue el 2016"
         },
         "hideLogo": true,
         "minHeight": "360px"

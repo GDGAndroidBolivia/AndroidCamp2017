@@ -14,12 +14,12 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "contactUs": "Contáctenos",
   "ticketsTitle": "Entradas",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+  "ticketsDetails": "Accesos a todas las charlas, talleres, actividades recreativas, concursos y alimentación.",
   "close": "Cerrar",
   "soldOutTickets": "Sold Out",
   "socialTitle": "Social",
-  "socialMotto": "Add to circles, like, follow or connect with us on",
-  "beforeHashtag": "What's up",
+  "socialMotto": "Añadir a círculos, seguir o conectar con nosotros en:",
+  "beforeHashtag": "NOVEDADES",
   "clickToViewPhotos": "Click here to view more photos",
   "partners": "Partners",
   "becomePartner": "Become a partner",
@@ -32,7 +32,7 @@
   "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
   "locationAddress": "Shchyretska St, 36",
   "organizerTitle": "Organizador",
-  "aboutOrganizers": "<a href='http://www.gdg.androidbolivia.com/' target='_blank'>GDG Android Bolivia</a> es la Comunidad para desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en la plataforma Android en toda Bolivia.",
+  "aboutOrganizers": "GDG Android Bolivia es la Comunidad para desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en la plataforma Android en toda Bolivia.",
   "openTeamPage": "Open team page",
   "whatIsGdg": "¿Que es GDG?",
   "aboutGdg": "Google Developers Group (GDG) es una comunidad abierta y voluntaria que crea proyectos  y comparte experiencias y conocimiento con las tecnologías de Google con mucha pasión.",
@@ -93,33 +93,18 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "For Partners",
-      "links": [
-        {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
-          "newTab": true
-        }
-      ]
     }
   ],
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "androidlapaz@gmail.com",
+        "url": "mailto:androidlapaz@gmail.com"
       }
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageText": "Google es conocido en todo el mundo. Todos están 'googleando', revisando en 'maps' y comunicándose por 'gmail'. Para los usuarios, ellos son servicios que solamente funcionan, pero no para nosotros. Los Desarrolladores vemos mucho más: APIs, escalabilidad, conjunto de tecnologías complejas. Y eso es lo que vemos en un GDG. GDG Android Bolivia es una Comunidad para desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en la plataforma Android Tenemos como objetivo compartir, practicar y enseñar acerca del desarrollo de software para aplicaciones Android con tecnologías de Google y open source, para que con ello aporten a la región y país innovando en las empresas o creando startups.",
   "statistics": [
     {
       "counter": "+500",

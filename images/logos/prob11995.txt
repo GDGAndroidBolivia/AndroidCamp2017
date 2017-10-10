@@ -1,0 +1,119 @@
+package Tarea12;
+
+import java.io.*;
+import java.util.*;
+public class problema11995 {
+	public static void main(String[] args) {                
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+		String line;
+		try {
+			while ((line = reader.readLine()) != null) {
+				int actionCount = Integer.parseInt(line.trim());
+				List<DataStructure> dataStructures = new ArrayList<DataStructure>();
+				dataStructures.add(new PriorityQueueDataStructure());
+				dataStructures.add(new QueueDataStructure());
+				dataStructures.add(new StackDataStructure());
+
+				for (int i = 0; i < actionCount; i++) {
+					StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
+
+					int action = Integer.parseInt(tokenizer.nextToken());
+					int value = Integer.parseInt(tokenizer.nextToken());
+
+
+					switch (action) {
+					case 1:
+						for (DataStructure dataStructure : dataStructures) {
+							dataStructure.add(value);
+						}
+						break;
+					case 2:
+						for (Iterator<DataStructure> iterator = dataStructures.iterator(); iterator.hasNext(); ) {
+							final DataStructure dataStructure = iterator.next();
+							if (dataStructure.take() != value) {
+								iterator.remove();
+							}
+						}
+						break;
+					}
+				}
+				if (dataStructures.isEmpty()) {
+					System.out.println("impossible");
+				}
+				else if (dataStructures.size() > 1) {
+					System.out.println("not sure");
+				}
+				else {
+					System.out.println(dataStructures.iterator().next().name());
+				}
+			}
+		}
+		catch (IOException e) {
+		}
+	}
+
+
+	static interface DataStructure {
+		int take();
+
+		void add(int value);
+
+		String name();
+	}
+
+	static class StackDataStructure implements DataStructure {
+
+		private Stack<Integer> stack = new Stack<Integer>();
+
+		public int take() {
+			return stack.pop();
+		}
+
+		public void add(final int value) {
+			stack.add(value);
+		}
+
+		public String name() {
+			return "stack";
+		}
+	}
+
+	static class QueueDataStructure implements DataStructure {
+
+		private Queue<Integer> queue = new LinkedList<Integer>();
+
+		public int take() {
+			return queue.poll();
+		}
+
+		public void add(final int value) {
+			queue.add(value);
+		}
+
+		public String name() {
+			return "queue";
+		}
+	}
+
+	static class PriorityQueueDataStructure implements DataStructure {
+
+		private PriorityQueue<Integer> priorityQueue = new PriorityQueue<Integer>(256,new Comparator<Integer>() {
+			public int compare(final Integer o1, final Integer o2) {
+				return o2.compareTo(o1);
+			}
+		});
+
+		public int take() {
+			return priorityQueue.poll();
+		}
+
+		public void add(final int value) {
+			priorityQueue.add(value);
+		}
+
+		public String name() {
+			return "priority queue"; 
+		}
+	}
+}

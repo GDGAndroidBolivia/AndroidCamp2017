@@ -16,12 +16,12 @@
   "ticketsTitle": "Entradas",
   "ticketsDetails": "Accesos a todas las charlas, talleres, actividades recreativas, concursos y alimentación.",
   "close": "Cerrar",
-  "soldOutTickets": "Sold Out",
+  "soldOutTickets": "Agotado",
   "socialTitle": "Social",
   "socialMotto": "Añadir a círculos, seguir o conectar con nosotros en:",
   "beforeHashtag": "NOVEDADES",
-  "clickToViewPhotos": "Click here to view more photos",
-  "partners": "Partners",
+  "clickToViewPhotos": "Ver más fotos",
+  "partners": "Asociados",
   "becomePartner": "Conviértete en un Sponsor",
   "featuredVideosTitle": "Android Camp 2016 | #DevFest 2016",
   "featuredVideosViewAll": "Ver Todos Los Videos",
@@ -63,13 +63,8 @@
       "title": "For visitors",
       "links": [
         {
-          "text": "Team",
+          "text": "Conoce al equipo",
           "url": "/team/",
-          "newTab": false
-        },
-        {
-          "text": "Code of Conduct",
-          "url": "/cod/",
           "newTab": false
         },
         {
@@ -78,18 +73,8 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
+          "text": "Android Camp 2016",
+          "url": "https://goo.gl/photos/pcC3D4EAwoMfpWxP9 ",
           "newTab": true
         }
       ]

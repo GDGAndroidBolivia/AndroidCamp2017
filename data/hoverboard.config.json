@@ -135,7 +135,7 @@
     "speakers": {
       "title": "Expositores",
       "headerSettings": {
-        "backgroundColor": "#3f51b5",
+        "backgroundColor": "#ab3b3c",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -144,7 +144,7 @@
     "team": {
       "title": "Equipo",
       "headerSettings": {
-        "backgroundColor": "#009688",
+        "backgroundColor": "#a5bc47",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }

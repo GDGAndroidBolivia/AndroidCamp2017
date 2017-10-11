@@ -83,7 +83,7 @@
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
+    "name": "Facultad Nacional De Ingeniería (FNI)",
     "address": "36 Shchyretska St, Lviv, Ukraine",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
@@ -96,9 +96,12 @@
       "longitude": -67.1351515
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/location_1.jpeg",
+      "/images/backgrounds/location_2.jpeg",
+      "/images/backgrounds/location_3.jpeg",
+      "/images/backgrounds/location_4.jpeg",
+      "/images/backgrounds/location_5.jpeg",
+      "/images/backgrounds/location_6.jpeg"
     ]
   },
   "gallery": {

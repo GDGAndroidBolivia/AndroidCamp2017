@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "./build",
+    "public": "build/",
     "cleanUrls": true,
     "rewrites": [
       {
@@ -14,7 +14,7 @@
     "ignore": [
       "/test/**",
       "bower.json",
-      "database.rules.json",
+
       "firebase.json",
       "README.md"
     ]

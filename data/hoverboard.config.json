@@ -1,5 +1,5 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://android-camp-2017.firebaseapp.com/",
   "startDate": "2016-09-09T09:00:00+03:00",
   "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
@@ -7,13 +7,13 @@
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG Android Bolivia",
+    "twitter": "GDGAndroidBo"
   },
   "webapp": {
-    "shortName": "DevFest",
-    "themeColor": "#F57C00",
-    "backgroundColor": "#F57C00"
+    "shortName": "Android Camp 2017",
+    "themeColor": "#a5bc47",
+    "backgroundColor": "#a5bc47"
   },
   "firebase": {
     "name": "project-306439763428",
@@ -32,7 +32,7 @@
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "AndroidCampBo",
+  "hashtag": " ",
   "disqusShortName": "hoverboard-gdg-x",
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
@@ -84,7 +84,7 @@
   "location": {
     "apiKey": "",
     "name": "Facultad Nacional De Ingeniería (FNI)",
-    "address": "12, Oruro, Bolivia",
+    "address": "36 Shchyretska St, Lviv, Ukraine",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
       "latitude": -17.989278,

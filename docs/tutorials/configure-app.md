@@ -122,7 +122,7 @@ This configs reflects in `toolbar-block.html` and `drawer-block.html`
 "tweetsSource": "/data/tweets.json",
 ```
 To make it more dynamic use [Tweetledee](http://chrissimpkins.github.io/tweetledee/)
-which provides ready-bake PHP files that allow you to access Twitter user 
+which provides ready-bake PHP files that allow you to access Twitter user
 timelines, user favorites, lists, home timelines, and tweet search data in a JSON.
 ```
 "tweetsSource": "https://<YOUR_APP>.herokuapp.com/favoritesjson.php?c=10&cache_interval=8000",
@@ -136,7 +136,7 @@ Or you can upload the files to a server hosting any website in the public_html d
 ```
 "tweetsSource": "http://domain/tweetledee/favoritesjson.php?c=10&cache_interval=8000",
 ```
-Add 
+Add
 ```
 header("Access-Control-Allow-Origin: *");
 ```

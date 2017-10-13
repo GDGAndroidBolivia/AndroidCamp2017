@@ -92,11 +92,11 @@
   "teamPageText": "Google es conocido en todo el mundo. Todos están 'googleando', revisando en 'maps' y comunicándose por 'gmail'. Para los usuarios, ellos son servicios que solamente funcionan, pero no para nosotros. Los Desarrolladores vemos mucho más: APIs, escalabilidad, conjunto de tecnologías complejas. Y eso es lo que vemos en un GDG. GDG Android Bolivia es una Comunidad para desarrolladores, diseñadores, profesionales, estudiantes y toda persona interesada en la plataforma Android Tenemos como objetivo compartir, practicar y enseñar acerca del desarrollo de software para aplicaciones Android con tecnologías de Google y open source, para que con ello aporten a la región y país innovando en las empresas o creando startups.",
   "statistics": [
     {
-      "counter": "+500",
+      "counter": "+800",
       "caption": "Asistentes"
     },
     {
-      "counter": 2,
+      "counter": 3,
       "caption": "Días"
     },
     {
@@ -109,7 +109,7 @@
     }
   ],
   "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
+    "videoTitle": "Android Camp | DevFest 2017",
     "videoId": "DfMnJAzOFng"
   }
 }

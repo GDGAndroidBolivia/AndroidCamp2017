@@ -102,7 +102,7 @@
       }
 
       .additional-info {
-        font-size: 12px;
+        font-size: 16px;
         color: var(--disabled-text-color);
       }
 
@@ -126,12 +126,12 @@
     <div class="punch"></div>
     <div class="inner">
       <div class="main">
-        <div class="headline">[[price]][[currency]]</div>
+        <div class="headline">[[currency]] [[price]]</div>
         <div class="divider">
           <iron-icon icon="icons:star"></iron-icon>
         </div>
         <div class="dates">[[starts]] - [[ends]]</div>
-        <div class="additional-info" hidden$="[[!info]]">[[info]]</div>
+        <div class="additional-info" hidden$="[[!info]]"><b>[[info]]</b></div>
       </div>
     </div>
     <div class="side">
